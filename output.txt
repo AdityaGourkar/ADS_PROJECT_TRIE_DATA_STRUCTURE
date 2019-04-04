@@ -1,0 +1,252 @@
+run:
+Implementing Trie as a Data Structure.
+
+Creation of Trie is done by Object intialization.
+
+--------------------------------------------------------------------------
+Trie Operations to be performed are :
+1.Insertion 	 2.Searching 	 3.Deletion 	 4.Print_Trie	 0.Exit
+--------------------------------------------------------------------------
+1
+Enter the no. of words u wish to insert :	
+14
+Now enter the word 1 to be inserted as string,value : 
+to 7
+Child Index : 20
+ t
+Child Index : 15
+ o
+Now enter the word 2 to be inserted as string,value : 
+a 5
+Child Index : 1
+ a
+Now enter the word 3 to be inserted as string,value : 
+an 8
+Child Index : 1
+ a
+Child Index : 14
+ n
+Now enter the word 4 to be inserted as string,value : 
+and 15
+Child Index : 1
+ a
+Child Index : 14
+ n
+Child Index : 4
+ d
+Now enter the word 5 to be inserted as string,value : 
+tea 3
+Child Index : 20
+ t
+Child Index : 5
+ e
+Child Index : 1
+ a
+Now enter the word 6 to be inserted as string,value : 
+ted 4
+Child Index : 20
+ t
+Child Index : 5
+ e
+Child Index : 4
+ d
+Now enter the word 7 to be inserted as string,value : 
+ten 12
+Child Index : 20
+ t
+Child Index : 5
+ e
+Child Index : 14
+ n
+Now enter the word 8 to be inserted as string,value : 
+in 2
+Child Index : 9
+ i
+Child Index : 14
+ n
+Now enter the word 9 to be inserted as string,value : 
+ind 11
+Child Index : 9
+ i
+Child Index : 14
+ n
+Child Index : 4
+ d
+Now enter the word 10 to be inserted as string,value : 
+car 77
+Child Index : 3
+ c
+Child Index : 1
+ a
+Child Index : 18
+ r
+Now enter the word 11 to be inserted as string,value : 
+cane 99
+Child Index : 3
+ c
+Child Index : 1
+ a
+Child Index : 14
+ n
+Child Index : 5
+ e
+Now enter the word 12 to be inserted as string,value : 
+i 1
+Child Index : 9
+ i
+Now enter the word 13 to be inserted as string,value : 
+can 18
+Child Index : 3
+ c
+Child Index : 1
+ a
+Child Index : 14
+ n
+Now enter the word 14 to be inserted as string,value : 
+tear 44
+Child Index : 20
+ t
+Child Index : 5
+ e
+Child Index : 1
+ a
+Child Index : 18
+ r
+--------------------------------------------------------------------------
+Trie Operations to be performed are :
+1.Insertion 	 2.Searching 	 3.Deletion 	 4.Print_Trie	 0.Exit
+--------------------------------------------------------------------------
+4
+Contents in Trie : 
+
+Keyword is: i & Value is: 1
+Keyword is: in & Value is: 2
+Keyword is: tea & Value is: 3
+Keyword is: cane & Value is: 99
+Keyword is: ted & Value is: 4
+Keyword is: a & Value is: 5
+Keyword is: to & Value is: 7
+Keyword is: an & Value is: 8
+Keyword is: ind & Value is: 11
+Keyword is: ten & Value is: 12
+Keyword is: tear & Value is: 44
+Keyword is: car & Value is: 77
+Keyword is: and & Value is: 15
+Keyword is: can & Value is: 18
+
+No. of words stored is : 14
+--------------------------------------------------------------------------
+Trie Operations to be performed are :
+1.Insertion 	 2.Searching 	 3.Deletion 	 4.Print_Trie	 0.Exit
+--------------------------------------------------------------------------
+2
+Enter the word to be searched : 	
+to
+Word Found.!!
+Key-value pair retrieved : [ "to",7]
+ to Presence in the trie : TRUE
+--------------------------------------------------------------------------
+Trie Operations to be performed are :
+1.Insertion 	 2.Searching 	 3.Deletion 	 4.Print_Trie	 0.Exit
+--------------------------------------------------------------------------
+2
+Enter the word to be searched : 	
+tear
+Word Found.!!
+Key-value pair retrieved : [ "tear",44]
+ tear Presence in the trie : TRUE
+--------------------------------------------------------------------------
+Trie Operations to be performed are :
+1.Insertion 	 2.Searching 	 3.Deletion 	 4.Print_Trie	 0.Exit
+--------------------------------------------------------------------------
+3
+Enter the word to be deleted with its value :	
+i
+1
+--------------------------------------------------------------------------
+Trie Operations to be performed are :
+1.Insertion 	 2.Searching 	 3.Deletion 	 4.Print_Trie	 0.Exit
+--------------------------------------------------------------------------
+4
+Contents in Trie : 
+
+Keyword is: in & Value is: 2
+Keyword is: tea & Value is: 3
+Keyword is: cane & Value is: 99
+Keyword is: ted & Value is: 4
+Keyword is: a & Value is: 5
+Keyword is: to & Value is: 7
+Keyword is: an & Value is: 8
+Keyword is: ind & Value is: 11
+Keyword is: ten & Value is: 12
+Keyword is: tear & Value is: 44
+Keyword is: car & Value is: 77
+Keyword is: and & Value is: 15
+Keyword is: can & Value is: 18
+
+No. of words stored is : 13
+--------------------------------------------------------------------------
+Trie Operations to be performed are :
+1.Insertion 	 2.Searching 	 3.Deletion 	 4.Print_Trie	 0.Exit
+--------------------------------------------------------------------------
+3
+Enter the word to be deleted with its value :	
+tear 54
+--------------------------------------------------------------------------
+Trie Operations to be performed are :
+1.Insertion 	 2.Searching 	 3.Deletion 	 4.Print_Trie	 0.Exit
+--------------------------------------------------------------------------
+4
+Contents in Trie : 
+
+Keyword is: in & Value is: 2
+Keyword is: tea & Value is: 3
+Keyword is: cane & Value is: 99
+Keyword is: ted & Value is: 4
+Keyword is: a & Value is: 5
+Keyword is: to & Value is: 7
+Keyword is: an & Value is: 8
+Keyword is: ind & Value is: 11
+Keyword is: ten & Value is: 12
+Keyword is: tear & Value is: 44
+Keyword is: car & Value is: 77
+Keyword is: and & Value is: 15
+Keyword is: can & Value is: 18
+
+No. of words stored is : 13
+--------------------------------------------------------------------------
+Trie Operations to be performed are :
+1.Insertion 	 2.Searching 	 3.Deletion 	 4.Print_Trie	 0.Exit
+--------------------------------------------------------------------------
+3
+Enter the word to be deleted with its value :	
+tear 44
+
+--------------------------------------------------------------------------
+Trie Operations to be performed are :
+1.Insertion 	 2.Searching 	 3.Deletion 	 4.Print_Trie	 0.Exit
+--------------------------------------------------------------------------
+4
+Contents in Trie : 
+
+Keyword is: in & Value is: 2
+Keyword is: tea & Value is: 3
+Keyword is: cane & Value is: 99
+Keyword is: ted & Value is: 4
+Keyword is: a & Value is: 5
+Keyword is: to & Value is: 7
+Keyword is: an & Value is: 8
+Keyword is: ind & Value is: 11
+Keyword is: ten & Value is: 12
+Keyword is: car & Value is: 77
+Keyword is: and & Value is: 15
+Keyword is: can & Value is: 18
+
+No. of words stored is : 12
+--------------------------------------------------------------------------
+Trie Operations to be performed are :
+1.Insertion 	 2.Searching 	 3.Deletion 	 4.Print_Trie	 0.Exit
+--------------------------------------------------------------------------
+0
+Exiting..!!
+BUILD SUCCESSFUL (total time: 28 minutes 11 seconds)
